@@ -4,7 +4,7 @@ import { close, logo, menu } from '../assets'
 import { navLinks } from '../const'
 
 const Navbar = () => {
-  const [toggle, setToggle] = useState(true);
+  const [toggle, setToggle] = useState(false);
 
   const onBurger = () => setToggle(!toggle)
 

@@ -11,7 +11,7 @@ import {
   Navbar,
   Stats,
   Testimonials
-} from './components'
+} from './blocks'
 
 const App = () => (
   <div className='bg-primary w-full overflow-hidden'>
